@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad012a205effe14fb6587bb8c162b9a, type: 3}
+  m_Name: TurretFreeze
+  m_EditorClassIdentifier: 
+  turretName: Ice Turret
+  cost: 5
+  prefab: {fileID: 3312728997542272041, guid: 2db840306d61e4e1d8ed7a2a17e59dc5, type: 3}
+  damage: 2
+  range: 13
+  fireRate: 0.8
+  projectileSpeed: 20
+  hasSlowEffect: 1
+  slowAmount: 0.5
+  slowDuration: 3
+  projectilePrefab: {fileID: 1108245438725707276, guid: bdabedcaf4b7f424888c270bc3b8610e,
+    type: 3}
